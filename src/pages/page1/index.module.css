@@ -1,0 +1,321 @@
+.wrapdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapdiv .background .flex1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.wrapdiv .background .flex1 .texts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 40px;
+}
+.wrapdiv .background .flex1 .texts h2 {
+  width: 380px;
+  color: #05001f;
+  font-family: "Comfortaa", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 50px;
+}
+.wrapdiv .background .flex1 .texts h1 {
+  color: #078d2d;
+  font-family: "Comfortaa", sans-serif;
+  font-size: 40px;
+  font-style: bold;
+  font-weight: 700;
+  line-height: normal;
+}
+.wrapdiv .background .flex1 .images img {
+  width: 330px;
+  transition: rotate 5s ease-in-out;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.wrapdiv .background .flex1 img:hover {
+  rotate: y 360deg;
+}
+.wrapdiv .background .selections {
+  border: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+  border-radius: 20px;
+  gap: 20px;
+  border: 3px solid rgba(0, 0, 0, 0.23);
+  background: #fff;
+}
+.wrapdiv .background .selections .marks {
+  width: 38%;
+  display: flex;
+  gap: 10px;
+}
+.wrapdiv .background .selections .marks .control1 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  gap: 10px;
+  margin-top: 5px;
+}
+.wrapdiv .background .selections .marks .control1 h2 {
+  color: rgba(30, 30, 30, 0.87);
+  font-family: "Comfortaa", sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.wrapdiv .background .selections .marks .control1 .select1 {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  width: 130px;
+  outline: none;
+  height: 4vh;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+.wrapdiv .background .selections .marks .control1 .select1 option {
+  color: #000;
+  font-family: Days One;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.wrapdiv .background .selections .marks .hr1 hr {
+  background: rgba(0, 0, 0, 0.23);
+  border: none;
+  width: 3px;
+  margin-left: 15px;
+  width: 1px;
+  height: 70px;
+}
+.wrapdiv .background .selections .models {
+  width: 38%;
+  display: flex;
+  gap: 10px;
+}
+.wrapdiv .background .selections .models .control2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 5px;
+}
+.wrapdiv .background .selections .models .control2 h2 {
+  color: rgba(30, 30, 30, 0.87);
+  font-family: "Comfortaa", sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.wrapdiv .background .selections .models .control2 .select2 {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  outline: none;
+  height: 4vh;
+  padding-left: 10px;
+  width: 130px;
+  border-radius: 10px;
+}
+.wrapdiv .background .selections .models .control2 .select2 option {
+  color: #000;
+  font-family: Days One;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.wrapdiv .background .selections .dateinput {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+.wrapdiv .background .selections .dateinput .selects1 {
+  width: 70%;
+  border-radius: 10px;
+  height: 4vh;
+}
+.wrapdiv .background .selections .dateinput .selects1 option {
+  width: 100%;
+  padding-right: 25px;
+  font-family: "Comfortaa", sans-serif;
+  text-align: center;
+  border: none;
+  outline-color: black;
+}
+.wrapdiv .background .selections .inputs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10px;
+  gap: 50px;
+}
+.wrapdiv .background .selections .inputs input {
+  border-radius: 10px;
+  width: 30%;
+  font-family: "Comfortaa", sans-serif;
+  height: 4vh;
+  outline-color: black;
+  padding-left: 30px;
+}
+.wrapdiv .background .searchbutton {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.wrapdiv .background .searchbutton button {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  border-radius: 20px;
+  border: 2px solid rgba(0, 0, 0, 0.23);
+  background: #317ae7;
+  color: white;
+  font-family: "Comfortaa", sans-serif;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+.wrapdiv .background .searchbutton svg {
+  width: 12px;
+  height: 12px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  .wrapdiv .background .flex1 .texts h2 {
+    width: 540px;
+    font-size: 60px;
+  }
+  .wrapdiv .background .flex1 .texts h1 {
+    font-size: 60px;
+  }
+  .wrapdiv .background .flex1 .images img {
+    width: 540px;
+  }
+  .wrapdiv .background .selections .marks .control1 .select1 {
+    width: 100%;
+    padding-right: 15px;
+  }
+  .wrapdiv .background .selections .marks .hr1 hr {
+    height: 76px;
+  }
+  .wrapdiv .background .selections .models .control2 .select2 {
+    width: 100%;
+    padding-right: 15px;
+  }
+  .wrapdiv .background .selections .dateinput .selects1 {
+    width: 72%;
+    margin-right: 20px;
+  }
+  .wrapdiv .background .selections .inputs {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    gap: 120px;
+  }
+  .wrapdiv .background .selections .inputs input {
+    width: 100%;
+  }
+}
+@media (min-width: 992px) {
+  .wrapdiv .background .flex1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 145px;
+  }
+  .wrapdiv .background .flex1 .texts {
+    margin-top: 0;
+  }
+  .wrapdiv .background .flex1 .texts h2 {
+    width: 720px;
+    font-size: 70px;
+    line-height: 80px;
+  }
+  .wrapdiv .background .flex1 .texts h1 {
+    font-size: 70px;
+  }
+  .wrapdiv .background .flex1 .images img {
+    width: 100%;
+  }
+  .wrapdiv .background .controls {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+  }
+  .wrapdiv .background .controls .selections {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    gap: 10px;
+  }
+  .wrapdiv .background .controls .selections .marks .control1 .select1 {
+    border-radius: 10px;
+    width: 300px;
+    padding-right: 15px;
+  }
+  .wrapdiv .background .controls .selections .marks .hr1 hr {
+    height: 96px;
+  }
+  .wrapdiv .background .controls .selections .models {
+    margin-left: 40px;
+  }
+  .wrapdiv .background .controls .selections .models .control2 .select2 {
+    border-radius: 10px;
+    width: 300px;
+    padding-right: 15px;
+  }
+  .wrapdiv .background .controls .selections .dateinput {
+    margin-top: 42px;
+    margin-left: 20px;
+    border-radius: 10px;
+  }
+  .wrapdiv .background .controls .selections .dateinput .selects1 {
+    width: 100px;
+  }
+  .wrapdiv .background .controls .selections .inputs {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-right: 20px;
+    margin-top: 40px;
+  }
+  .wrapdiv .background .controls .selections .inputs input {
+    width: 150px;
+    border-radius: 10px;
+    border: 1px solid black;
+    outline: none;
+  }
+  .wrapdiv .background .controls .searchbutton {
+    width: 100%;
+    margin-top: 31px;
+  }
+  .wrapdiv .background .controls .searchbutton button {
+    padding-top: 44px;
+    padding-bottom: 44px;
+    font-size: 25px;
+  }
+  .wrapdiv .background .controls .searchbutton button svg {
+    width: 22px;
+    height: 22px;
+  }
+}/*# sourceMappingURL=index.module.css.map */

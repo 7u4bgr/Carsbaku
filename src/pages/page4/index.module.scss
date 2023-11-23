@@ -1,0 +1,94 @@
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .flexs {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    .texts {
+      h2 {
+        color: #05001f;
+        font-family: "Comfortaa", sans-serif;
+        font-size: 23px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.1px;
+      }
+    }
+    .borders {
+      margin-top: 20px;
+      border-radius: 20px;
+      border: 3px solid rgba(0, 0, 0, 0.25);
+      background: #fff;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 70px;
+      .sec1 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        img {
+          width: 60px;
+        }
+        h2 {
+          color: #05001f;
+          font-family: "Comfortaa", sans-serif;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+          letter-spacing: 0.1px;
+        }
+        p {
+          color: #000;
+          text-align: center;
+          font-family: "Comfortaa", sans-serif;
+          width: 240px;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 700;
+         
+        }
+      }
+    }
+  }
+}
+@media(min-width:992px){
+    .background{
+        .flexs{
+            margin-top: 60px;
+            .texts{
+                h2{
+                    font-size: 45px;
+                }
+            }
+            .borders{
+                margin-top: 60px;
+                margin-bottom: 60px;
+                flex-direction: row;
+                justify-content: space-between;
+                padding-left: 40px;
+                padding-right: 40px;
+                padding-top: 50px;
+                padding-bottom: 50px;
+                .sec1{
+                    img{
+                        width: 100px;
+                    }
+                    h2{
+                        font-size: 40px;
+                    }
+                    p{
+                        font-size: 25px;
+                        width: 400px;
+                    }
+                }
+            }
+        }
+    }
+}

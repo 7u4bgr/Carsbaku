@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .background {
+    .texts {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 30px;
+      .text1 {
+        h2 {
+          font-family: "Comfortaa", sans-serif;
+          color: #05001f;
+
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+        }
+      }
+      .text2 {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        h2 {
+          font-family: "Comfortaa", sans-serif;
+          color: #05001f;
+          font-size: 11px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+        }
+      }
+    }
+    .maps {
+        margin-top: 20px;
+        padding-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        .flexscontrol{
+          border-radius: 20px;
+          border: 2px solid rgba(0, 0, 0, 0.25);
+          background: #f2f2f2;
+
+          .flexs {
+            display: flex;
+            justify-content: center;
+            img {
+              width: 80%;
+            }
+          }
+          .control1{
+            margin-top: 30px;
+            padding-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            justify-content: space-around;
+            .texts1{
+                h2{
+                    font-family: "Comfortaa", sans-serif;
+          color: #05001f;
+          font-size: 22px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+          width: 60px;
+                }
+            }
+            .texts2{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                h2{
+                     font-family: "Comfortaa", sans-serif;
+          color: #05001f;
+          font-size: 13px;
+          font-style: normal;
+          font-weight: 700;
+          width: 100px;
+          line-height: normal;
+                }
+                p{
+                    font-family: "Comfortaa", sans-serif;
+          color: #05001f;
+          font-size: 13px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+                }
+            }
+          }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .wrapdiv {
+    .background {
+      .texts {
+        .text1 {
+          h2 {
+            font-size: 18px;
+          }
+        }
+        .text2 {
+          h2 {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .wrapdiv {
+    .background {
+      .texts {
+        .text1 {
+          h2 {
+            font-size: 21px;
+          }
+        }
+        .text2 {
+          h2 {
+            font-size: 18px;
+          }
+        }
+      }
+      .maps{
+        padding-bottom: 40px;
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+ 
+        .flexscontrol{
+            width: 32%;
+            .flexs{
+                width: 100%;
+            }
+        }
+      }
+    }
+  }
+}

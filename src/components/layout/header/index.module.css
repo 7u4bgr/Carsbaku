@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  background: #05001f;
+  width: 100%;
+}
+.background .flexs .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.background .flexs .logo svg {
+  margin-top: 10px;
+  width: 20%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.background .flexs .texts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+.background .flexs .texts .text1 h2 {
+  flex-shrink: 0;
+  color: #ffffff;
+  font-family: "Comfortaa", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.background .flexs .texts .text2 {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.background .flexs .texts .text2 svg {
+  width: 16px;
+  height: 15px;
+  color: white;
+}
+.background .flexs .texts .text2 h2 {
+  flex-shrink: 0;
+  color: #ffffff;
+  font-family: "Comfortaa", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.background .flexs .texts .text3 {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.background .flexs .texts .text3 svg {
+  width: 20px;
+  height: 17px;
+  color: white;
+}
+.background .flexs .texts .text3 h2 {
+  flex-shrink: 0;
+  color: #ffffff;
+  font-family: "Comfortaa", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+@media (min-width: 768px) {
+  .background .flexs {
+    padding-top: 20px;
+  }
+  .background .flexs .texts {
+    margin-top: 30px;
+    gap: 60px;
+  }
+  .background .flexs .texts .text1 h2 {
+    font-size: 19px;
+  }
+  .background .flexs .texts .text2 h2 {
+    font-size: 19px;
+  }
+  .background .flexs .texts .text3 h2 {
+    font-size: 19px;
+  }
+}
+@media (min-width: 992px) {
+  .background .flexs {
+    padding-top: 20px;
+  }
+  .background .flexs .texts {
+    justify-content: space-around;
+    margin-top: 30px;
+    gap: 100px;
+  }
+  .background .flexs .texts .text1 {
+    cursor: pointer;
+  }
+  .background .flexs .texts .text1 h2 {
+    font-size: 19px;
+  }
+  .background .flexs .texts .text2 {
+    cursor: pointer;
+  }
+  .background .flexs .texts .text2 svg {
+    width: 20px;
+    height: 20px;
+  }
+  .background .flexs .texts .text2 h2 {
+    font-size: 19px;
+  }
+  .background .flexs .texts .text3 {
+    cursor: pointer;
+  }
+  .background .flexs .texts .text3 svg {
+    width: 24px;
+    height: 24px;
+  }
+  .background .flexs .texts .text3 h2 {
+    font-size: 19px;
+  }
+}/*# sourceMappingURL=index.module.css.map */

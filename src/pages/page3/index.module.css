@@ -1,0 +1,155 @@
+.background {
+  background: #05001f;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.background .flexs {
+  padding-top: 20px;
+}
+.background .flexs .texts {
+  display: flex;
+  justify-content: space-between;
+}
+.background .flexs .texts .text1 h2 {
+  color: #fff;
+  font-family: "Comfortaa", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.background .flexs .texts .text2 {
+  display: flex;
+  align-items: center;
+}
+.background .flexs .texts .text2 h2 {
+  color: #fff;
+  font-family: "Comfortaa", sans-serif;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.background .flexs .texts .text2 svg {
+  width: 11px;
+  height: 11px;
+}
+.background .flexs .autos {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.background .flexs .autos .autoscontrol {
+  border-radius: 40px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.background .flexs .autos .autoscontrol .autotexts {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  gap: 12px;
+}
+.background .flexs .autos .autoscontrol .autotexts img {
+  width: 50px;
+}
+.background .flexs .autos .autoscontrol .autotexts h2 {
+  color: #05001f;
+  font-family: "Comfortaa", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+.background .flexs .autos .autoscontrol .autotexts h3 {
+  border-radius: 40px;
+  background: #deeff1;
+  color: #05001f;
+  font-family: "Comfortaa", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
+.background .flexs .autos .autoscontrol .renault img {
+  width: 200px;
+}
+
+@media (min-width: 768px) {
+  .background .flexs .texts .text1 h2 {
+    font-size: 22px;
+  }
+  .background .flexs .texts .text2 h2 {
+    font-size: 18px;
+  }
+  .background .flexs .texts .text2 svg {
+    width: 16px;
+    height: 16px;
+  }
+  .background .flexs .autos .autoscontrol {
+    display: flex;
+    justify-content: space-around;
+  }
+  .background .flexs .autos .autoscontrol .autotexts h2 {
+    font-size: 25px;
+  }
+  .background .flexs .autos .autoscontrol .renault img {
+    width: 100%;
+  }
+}
+@media (min-width: 992px) {
+  .background .flexs {
+    margin-top: 40px;
+    margin-bottom: 60px;
+  }
+  .background .flexs .texts .text1 h2 {
+    font-size: 22px;
+  }
+  .background .flexs .texts .text2 h2 {
+    font-size: 18px;
+  }
+  .background .flexs .texts .text2 svg {
+    width: 16px;
+    height: 16px;
+  }
+  .background .flexs .autos {
+    display: flex;
+    flex-direction: row;
+  }
+  .background .flexs .autos .autoscontrol {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .background .flexs .autos .autoscontrol .autotexts img {
+    width: 66px;
+  }
+  .background .flexs .autos .autoscontrol .autotexts h2 {
+    font-size: 30px;
+    font-weight: 900;
+  }
+  .background .flexs .autos .autoscontrol .autotexts h3 {
+    font-size: 22px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .background .flexs .autos .autoscontrol .renault img {
+    width: 100%;
+  }
+}/*# sourceMappingURL=index.module.css.map */
