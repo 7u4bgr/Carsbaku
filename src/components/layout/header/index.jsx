@@ -1,10 +1,12 @@
 import React from "react";
 import styles from "./index.module.css";
 import { CarDetails, CarIcon, LogoIcon } from "../../../icons";
-
+import Wrapper from '../../UI'
 const Header = () => {
   return (
     <div className={styles.background}>
+      <Wrapper>
+
       <div className={styles.flexs}>
         <div className={styles.logo}>
           <LogoIcon />
@@ -27,6 +29,7 @@ const Header = () => {
           </div>
         </div>
       </div>
+      </Wrapper>
     </div>
   );
 };
